@@ -1,0 +1,49 @@
+//
+// ESTILOS BASICOS
+//
+
+body {
+	background: url('../img/3.jpeg') no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: $font-text;	
+}
+
+.title {
+	@include font-size(3);
+	color: $font-primary;
+	font-family: $font-title;
+	text-align: center;
+	text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.75);
+	text-transform: uppercase;
+	margin: 30px 0 20px 0;
+}
+
+h3{
+	@include font-size(1.5);
+	text-align: center;
+	margin: 0;
+	margin: 30px 0;
+}
+
+h4{
+	@include font-size(1.5);
+}
+
+p{
+	@include font-size(1.1);
+}
+
+	
+a {
+	font-family: $font-text;
+}
+
+.group{
+	margin: 0 auto;
+	width: 80%;
+	text-align: center;
+	h3{
+		color: $font-primary;
+	}
+}

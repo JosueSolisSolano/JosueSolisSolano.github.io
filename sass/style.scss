@@ -1,0 +1,17 @@
+//Estilos Blog
+
+//Partials 
+
+@import "partials/variables.scss";
+@import "partials/mixins.scss";
+@import "partials/base.scss";
+@import "partials/layout.scss";
+
+//Modules
+
+@import "partials/modules/home.scss";
+@import "partials/modules/navigation.scss";
+@import "partials/modules/about.scss";
+@import "partials/modules/portfolio.scss";
+@import "partials/modules/contact.scss";
+@import "partials/modules/footer.scss";

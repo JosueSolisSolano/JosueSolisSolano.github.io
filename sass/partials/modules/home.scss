@@ -1,0 +1,72 @@
+//
+// ESTILOS HOME
+//
+
+.home{
+	height:100%;
+	.saludo{
+		display: block;
+		width: 750px;
+		margin: 0 auto;
+		padding-top: 10%;
+		p{
+			display: block;
+			text-align: center;
+			letter-spacing: 1px;
+			word-spacing: 10px;			
+			font-family: $font-title;
+			text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.75);
+
+		}
+		.name{
+			margin: 0 auto;
+			@include font-size(6);
+			color: $font-primary;
+		}	
+		.ocupation{
+			margin: -35px auto 0 auto;
+			@include font-size(2.4);
+			color: $primary;
+		}
+	}
+}
+
+.btn-scroll{
+	position: relative;
+	bottom: -180px;
+	animation-name: updown;
+	animation-duration: 1.5s;
+  	animation-timing-function: ease-in-out;
+  	animation-iteration-count: infinite;
+	a{
+		text-align: center;
+		display: block;
+		margin: 0 auto;
+		width: 60px;
+		height: 60px;
+		background: url("../img/down-arrow.png");
+		background-size: 100%;
+	}
+ 	span{
+		display: block;
+		margin: 0 auto;
+		width: 60px;
+		text-align: center;
+		padding-bottom: 5px;
+		color: $font-primary;
+		@include font-size(1.1);
+		letter-spacing: 1.5px;
+ 	}
+}
+
+@-webkit-keyframes updown {
+  	0% {transform:translateY(-15px);}
+  	50% {transform:translateY(0);}
+  	100% {transform:translateY(-15px);}
+}
+
+@keyframes updown {
+  	0% {transform:translateY(-15px);}
+  	50% {transform:translateY(0);}
+  	100% {transform:translateY(-15px);}
+}

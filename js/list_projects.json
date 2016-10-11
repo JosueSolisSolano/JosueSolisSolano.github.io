@@ -1,0 +1,21 @@
+[
+	{
+		"name":"Coca Cola",
+		"miniature" : "img/projects/ibuki.png",
+		"minidescrip" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum ipsum sunt magni illo dignissimos magnam delectus itaque earum sit dolorum hic, error ex? Sunt, dicta. Perspiciatis sunt provident voluptates, blanditiis.",
+		"descrip" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum ipsum sunt magni illo dignissimos magnam delectus itaque earum sit dolorum hic, error ex? Sunt, dicta. Perspiciatis sunt provident voluptates, blanditiis.",
+		"imagen" : "img/projects/ibuki.png"
+	},
+	{
+		"name":"La Iluminada",
+		"miniature" : "img/projects/web.png",
+		"minidescrip" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum ipsum sunt magni illo dignissimos magnam delectus itaque earum sit dolorum hic, error ex? Sunt, dicta. Perspiciatis sunt provident voluptates, blanditiis.",
+		"descrip" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum ipsum sunt magni illo dignissimos magnam delectus itaque earum sit dolorum hic, error ex? Sunt, dicta. Perspiciatis sunt provident voluptates, blanditiis.",
+		"imagen" : "img/projects/web.png"	},
+	{
+		"name":"Ak6+1",
+		"miniature" : "img/projects/ibuki.png",
+		"minidescrip" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum ipsum sunt magni illo dignissimos magnam delectus itaque earum sit dolorum hic, error ex? Sunt, dicta. Perspiciatis sunt provident voluptates, blanditiis.",
+		"descrip" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum ipsum sunt magni illo dignissimos magnam delectus itaque earum sit dolorum hic, error ex? Sunt, dicta. Perspiciatis sunt provident voluptates, blanditiis.",
+		"imagen" : "img/projects/ibuki.png"	}
+]

@@ -1,0 +1,39 @@
+//
+// ESTILOS NAVEGACION
+//
+.nav{
+	background: $primary;
+	color: $font-primary;
+	-webkit-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.75);
+}
+.main-nav {
+	float: right;
+	ul{
+		margin: 0;
+		padding: 0;
+	}
+	.item-nav{
+		text-align: center;
+		a{
+			display: block;
+			padding: 16px 30px;
+			color: $font-primary;
+			text-decoration: none;
+			font-family: $font-title;
+			@include font-size(1.2);
+			text-align: center;					
+		}
+		&:hover{
+			background: $primary-contras;
+		}
+	}
+
+}
+
+.fixed{
+	z-index: 2;
+	position: fixed;
+	top: 0;
+}

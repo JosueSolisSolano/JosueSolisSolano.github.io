@@ -1,0 +1,39 @@
+//
+// VARIABLES
+//
+
+//FONTS
+
+@import url(https://fonts.googleapis.com/css?family=Prosto+One|Roboto:900|Catamaran:900);
+
+@font-face {
+    font-family: 'renogare';
+    src: url('css/fonts/renogare-webfont.woff2') format('woff2'),
+         url('css/fonts/renogare-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+$font-title: 'Catamaran', sans-serif;
+$font-text: 'Roboto', sans-serif; 	
+
+//COLORS
+
+//FONT
+$font-primary: #F0F0F0; //Blanco
+$font-secondary: #969696; //Gris Claro
+
+//PRIMARY
+$base: #323232; //Gris Oscuro
+$primary: #0092cc; //Celeste
+$primary-contras: #087099; //Celeste Mate
+
+//SECONDARY 
+$secondary: #FF3333; //Rojo
+$secondary-contras: #CC3333; //Rojo Mate
+
+//WIDTH
+
+$full: 100%;
